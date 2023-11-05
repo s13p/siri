@@ -173,10 +173,17 @@
 </style>
 
 <style>
-    @media screen and (max-width: 480px) {
+    .nangoz {display: none;}
+    @media screen and (max-width: 580px) {
   .caca {
    min-height: 100%;
-   padding-top: 40vh;
+   padding-top: 20vh;
+  }
+  .nangoz {
+    display: block;
+  }
+  .lappy {
+    display: none;
   }
 }
 </style>
@@ -185,9 +192,12 @@
         </div>
 
             <div class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden caca" >
-              <video style="width: 100vw;" src="./y2mate_is_4K_Siri_Visual_Animation_5_Minutes_2lTTjj_x7is_720p_1699195902.mp4" autoplay muted></video>
+              <video class="lappy" style="width: 100vw;" src="./y2mate_is_4K_Siri_Visual_Animation_5_Minutes_2lTTjj_x7is_720p_1699195902.mp4" autoplay muted></video>
              
             </video>
+            <video class="nangoz" style="width: 100vw;" src="./x1.mp4" autoplay muted></video>
+             
+        </video>
             </div>
 
 
